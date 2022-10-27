@@ -19,8 +19,8 @@ reportIncidencePrevalence <- function(studyTitle,
                      "/rmarkdown/templates/IncidencePrevalenceReport.Rmd"),
       output_format = word_document(reference_docx = paste0(system.file(package = "IncidencePrevalenceReport"),
                                                             "/rmarkdown/templates/IncidencePrevalenceReport.docx")),
-      output_file = here("Reports/IncidencePrevalenceReport"),
-      encoding = 'UTF-8')
+      output_file = here("Reports/IncidencePrevalenceReport")
+      )
   } else {
     rmarkdown::render(
       input = paste0(system.file(package = "IncidencePrevalenceReport"),
