@@ -12,5 +12,8 @@ RoxygenNote: 7.2.1
 Imports: 
     CDMConnector,
     dplyr,
+    ggplot2,
     here,
-    rmarkdown
+    quarto,
+    rmarkdown,
+    shiny

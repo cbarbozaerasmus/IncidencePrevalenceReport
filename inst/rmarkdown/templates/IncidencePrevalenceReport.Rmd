@@ -9,12 +9,10 @@ Here is a table with the results for prevalence.
 
 ```{r prevalenceData, echo=FALSE}
 
-
-
-print(prevalenceData)
+knitr::kable(prevalenceData, caption = 'A caption')
 ```
 
-Here is a table showing the results for prevalence. 
+Here is a table showing the results for prevalence for the years **`r prevalenceData$time`**. The prevalence values are **`r prevalenceData$prev`** respectively. 
 
 ```{r echo=FALSE}
 

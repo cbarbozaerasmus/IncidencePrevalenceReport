@@ -8,7 +8,8 @@ reportIncidencePrevalence(
   studyTitle,
   studyAuthor,
   prevalenceData,
-  incidenceData
+  incidenceData,
+  word = TRUE
 )
 }
 \arguments{
